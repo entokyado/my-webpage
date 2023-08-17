@@ -118,15 +118,7 @@ li {
     align-content: center;
 }
 
-@media (max-width: 1270px) {
-
-    .sobre,.contato {
-        width: 80%;
-    }
-
-}
-
-@media (max-width: 1080px) {
+@media (max-width: 1280px) {
 
     .sobre,.contato {
         width: 100%;
@@ -135,6 +127,19 @@ li {
 }
 
 @media (max-width: 1000px) {
+
+    .circle {
+        height: 325px;
+        width: 325px;
+    }
+
+    h1 {
+        margin: 0px;
+    }
+
+    h2 {
+        margin: 0px 0px 50px 0px;
+    }
 
     .sobre {
         height: fit-content
@@ -151,27 +156,9 @@ li {
         object-fit: cover;
     }
 
-}
-
-@media (max-width: 800px) {
-
-    .circle {
-        height: 325px;
-        width: 325px;
-    }
-
-    h1 {
-        margin: 0px;
-    }
-
-    h2 {
-        margin: 0px 0px 50px 0px;
-    }
-
     .contato {
         flex-direction: column;
         width: fit-content;
-        font-size: 1.2rem;
     }
 
 }
