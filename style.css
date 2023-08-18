@@ -34,25 +34,25 @@ section {
 }
 
 h1 {
-    margin: 20px 0px 0px 0px;
     font-size: 4rem;
     font-family: 'Rajdhani', sans-serif;
+    margin: 20px 0px 0px 0px;
 }
 
 h2 {
-    margin: 10px 0px 0px 0px;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: lighter;
+    margin: 10px 0px 0px 0px;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 30px 0px 0px 0px;
 }
 
 h4 {
+    font-size: 2rem;
     margin: 0px;
-    font-size: 1.5rem;
 }
 
 span {
@@ -60,10 +60,12 @@ span {
 }
 
 p {
+    font-size: 1rem;
     margin: 5px 0px 10px 0px;
 }
 
 a {
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -73,6 +75,7 @@ ul {
 }
 
 li {
+    font-size: 1rem;
     list-style-type: none;
 }
 
@@ -109,8 +112,9 @@ li {
     width: 60%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 50px 0px;
-    gap: 10px;
+    gap: 20px 100px;
 }
 
 .contato * {
@@ -121,24 +125,24 @@ li {
 @media (max-width: 1280px) {
 
     .sobre,.contato {
-        width: 100%;
+        width: 80%;
+    }
+
+    .contato * {
+        font-size: 1.25rem;
     }
 
 }
 
 @media (max-width: 1000px) {
 
-    .circle {
-        height: 325px;
-        width: 325px;
-    }
-
     h1 {
         margin: 0px;
+        font-size: 6rem;
     }
 
-    h2 {
-        margin: 0px 0px 50px 0px;
+    .sobre,.contato {
+        width: 100%;
     }
 
     .sobre {
@@ -154,11 +158,6 @@ li {
         margin: 0px;
         width: 100%;
         object-fit: cover;
-    }
-
-    .contato {
-        flex-direction: column;
-        width: fit-content;
     }
 
 }
