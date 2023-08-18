@@ -21,16 +21,16 @@ section {
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    background-color: #303841;
+    background-color: #3A4750;
     margin: 50px 0px;
 }
 
 .escuro {
-    background-color: #3A4750;
+    background-color: #727B96;
 }
 
 .claro {
-    background-color: #727B96;
+    background-color: #EEEEEE;
 }
 
 h1 {
